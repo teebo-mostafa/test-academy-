@@ -1,8 +1,0 @@
-[build]
-  publish = "."
-
-# هذا الإعداد ضروري للسماح لـ Decap CMS بالعمل بشكل صحيح مع مسارات الموقع
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
